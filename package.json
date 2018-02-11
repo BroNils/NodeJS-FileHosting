@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-filehost",
+  "version": "1.0.0",
+  "description": "NodeJS File Upload Handler",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "author": "GoogleX",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-fileupload": "^0.4.0",
+    "express-recaptcha": "^3.0.1",
+    "express-session": "^1.15.6",
+    "mime": "^2.2.0",
+    "mime-types": "^2.1.17",
+    "path": "^0.12.7",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "unirest": "^0.5.1",
+    "util": "^0.10.3"
+  }
+}

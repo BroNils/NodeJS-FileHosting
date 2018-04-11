@@ -18,7 +18,6 @@ const path = require('path');
 const rp = require('request-promise');
 const request = require('request');
 const fileUpload = require('express-fileupload');
-const main = require('./pkg/main');
 const mime = require('mime-types');
 
 /* Global Var */
